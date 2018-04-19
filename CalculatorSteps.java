@@ -1,6 +1,6 @@
-package com.czeczotka.bdd.steps;
+package com.samplemavencucumber.bdd.steps;
 
-import com.czeczotka.bdd.calculator.Calculator;
+import com.samplemavencucumber.bdd.calculator.Calculator;
 import cucumber.api.java.Before;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;

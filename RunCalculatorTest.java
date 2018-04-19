@@ -1,4 +1,4 @@
-package com.czeczotka.bdd.runner;
+package com.samplemavencucumber.bdd.runner;
 
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
