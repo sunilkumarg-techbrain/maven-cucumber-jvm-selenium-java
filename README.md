@@ -1,29 +1,6 @@
-A.	Running maven cucumber java
+A.	Run maven cucumber java
 
-
-1. Maven cucumber selenium java project setup 
-   1.1.  Create a sample maven project with the structure posted above. 
-
-2. Executing the maven cucumber java tests as JUnit 
-    2.1. Right click the runner file ..... run as JUnit test 
-            This executes the tests kept in the runner and results are generated in target folder. 
-
-3. Debubgging the code
-   3.1. Keep break points in the code. 
-           Right click the runner .....  debug as JUnit test 
-           This switches the IDE in debug mode and we can debug, add checkpoints to complete the 
-           test flow. 
-
-4. Executing the maven cucumber selenium java tests as maven build
-   4.1. mvn clean test  
-           This runs the project as a maven build and once BUILD SUCCESS, executes the tests, completes  
-           the browser session and prints test result board.
-
-5. Right click tetng.xml ..... perform debug action  
-
-
-
-B.	Project Structure Maven Cucumber Java JVM
+1. Create a sample maven project with the structure posted below 
 
 └── cucumber-jvm-maven
     ├── pom.xml
@@ -47,6 +24,24 @@ B.	Project Structure Maven Cucumber Java JVM
             └── resources
                 └── cucumber
 •	└── calculator.feature
+
+2. Execute the maven cucumber java tests as JUnit 
+    2.1. Right click the runner file ..... run as JUnit test 
+            This executes the tests kept in the runner and results are generated in target folder. 
+
+3. Debug the code
+   3.1. Keep break points in the code. 
+           Right click the runner .....  debug as JUnit test 
+           This switches the IDE in debug mode and we can debug, add checkpoints to complete the 
+           test flow. 
+
+4. Execute the maven cucumber selenium java tests as maven build
+   4.1. mvn clean test  
+           This runs the project as a maven build and once BUILD SUCCESS, executes the tests, completes  
+           the browser session and prints test result board.
+
+5. Right click tetng.xml ..... perform debug action  
+
 
 C.	Executing maven cucumber test and generation of report
 $ mvn clean test
