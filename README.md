@@ -2,28 +2,17 @@ A.	Run maven cucumber java
 
 1. Create a sample maven project with the structure posted below 
 
-└── cucumber-jvm-maven
-    ├── pom.xml
-    └── src
-        ├── main
-        │   └── java
-        │       └── com
-        │           └── samplemavencucumber
-        │               └── bdd
-        │                   └── calculator
-        │                       └── Calculator.java
-        └── test
-            ├── java
-            │   └── com
-            │       └── samplemavencucumber
-            │           └── bdd
-            │               ├── runner
-            │               │   └── RunCalculatorTest.java
-            │               └── steps
-            │                   └── CalculatorSteps.java
-            └── resources
-                └── cucumber
-•	└── calculator.feature
+     cucumber-jvm-maven
+     pom.xml
+     
+     src .....  main ..... java ..... com ..... samplemavencucumber .....  bdd ..... calculator ..... Calculator.java
+     
+     src ...... test ..... java ..... com ..... samplemavencucumber ..... bdd ..... runner ..... RunCalculatorTest.java
+     src ...... test ..... java ..... com ..... samplemavencucumber ..... bdd ..... steps  ..... CalculatorSteps.java
+   
+     src ...... test ..... resources ..... cucumber ..... calculator.feature
+
+     
 
 2. Execute the maven cucumber java tests as JUnit 
     2.1. Right click the runner file ..... run as JUnit test 
@@ -82,7 +71,7 @@ $ mvn clean test
 -------------------------------------------------------
  T E S T S
 -------------------------------------------------------
-Running com.czeczotka.bdd.runner.RunCalculatorTest
+Running com.samplecucumbermaven.bdd.runner.RunCalculatorTest
 Feature: Calculator
   As a user
   I want to use a calculator
